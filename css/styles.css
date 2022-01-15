@@ -7,6 +7,168 @@ body{
     color: #757575 ;
 }
 
-.section-hero{
-    background-color: #2F303A;
+ul{
+     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.header {
+    background: #FFFFFF;
+}
+.header-nav {
+}
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-list{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+}
+.header-item:hover {
+    color: #2196F3;
+}
+
+.header-list-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-list-link:hover {
+    color: #2196F3;
+}
+.section-hero {
+    background: #2F303A;
+}
+.hero-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.button-hero {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+.sction-description {
+}
+.description-list {
+}
+
+.description-item{
+
+}
+
+.description-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.description-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.aside-section {
+}
+.aside-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.aside-list {
+}
+.aside-item {
+}
+.section-team {
+}
+.title-team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0.85px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-list {
+}
+.team-item {
+}
+.team-member-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.footer {
 }
