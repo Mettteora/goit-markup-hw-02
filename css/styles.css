@@ -1,5 +1,8 @@
 :root{
     --main-color-: white;
+    --main-color-Brown-: #757575 ;
+    --main-color-blue-: #2196F3;
+
 }
 
 body{
@@ -19,36 +22,35 @@ a{
 .header {
     background: #FFFFFF;
 }
+
+.color-logo{
+color: black;
+}
+
 .header-nav {
 }
 .logo {
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--main-color-blue-);
 }
 
 .header-list{
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
 
 }
 .header-item:hover {
-    color: #2196F3;
+    color:var(--main-color-blue-);
 }
 
 .header-list-link{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -57,36 +59,33 @@ color: #212121;
 .header-list-link:hover {
     color: #2196F3;
 }
+
+.header-item-link:hover{
+    color: var(--main-color-);
+}
 .section-hero {
     background: #2F303A;
 }
 .hero-title {
-    font-family: Roboto;
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-/* or 136% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
-color: #FFFFFF;
-
+color: var(--main-color-);
 }
 .button-hero {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--main-color-);
+    background: var(--main-color-blue-);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor:pointer
@@ -102,19 +101,15 @@ color: #FFFFFF;
 }
 
 .description-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .description-text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -123,9 +118,7 @@ color: #FFFFFF;
 .aside-section {
 }
 .aside-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -139,9 +132,7 @@ color: #FFFFFF;
 .section-team {
 }
 .title-team {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 0.85px;
     text-align: center;
@@ -151,7 +142,7 @@ color: #FFFFFF;
 .team-list {
 }
 .team-item {
-    background: #FFFFFF;
+    background: var(--main-color-);
 /* material shadow v1 */
 
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -159,18 +150,14 @@ border-radius: 0px 0px 4px 4px;
 
 }
 .team-member-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.8;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .team-text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.11;
@@ -178,8 +165,6 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
 }
 .footer {
-
-
 background: #2F303A;
 }
 
@@ -189,19 +174,17 @@ background: #2F303A;
 
 }
 .option-item {
-    background: #F5F4FA;
+    background: var(--main-color-);
     border-radius: 4px;
 }
 .button-option:hover{
-    background: #2196F3;
+    background: var(--main-color-blue-);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: #FFFFFF;
-    cursor:pointer
+    color: var(--main-color-);
+    cursor: pointer;
 }
 .button-option{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -215,24 +198,33 @@ background: #2F303A;
 .gallary-list {
 }
 .gallary-item {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--main-color-);
+    border: 1px solid (var(--main-color-));
     box-sizing: border-box; 
 }
 .title-gallary {
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
+
+
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .gallary-text {
-    font-family: Roboto;
-font-style: normal;
+
+
 font-weight: normal;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
+}
+
+.address{
+    font-style: normal;
+    
+}
+
+.address-link{
+    color: var(--main-color-);
 }
