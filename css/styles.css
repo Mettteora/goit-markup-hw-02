@@ -25,7 +25,8 @@ a{
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 button{
@@ -213,6 +214,10 @@ margin-bottom: 30px;
     padding-bottom: 30px;
 }
 .footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
 background: #2F303A;
 }
 
@@ -283,6 +288,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-logo{
-margin: 60px;
+padding-top: 60px;
 
 }
+
